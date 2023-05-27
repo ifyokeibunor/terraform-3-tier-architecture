@@ -53,30 +53,29 @@ web.sh and app.sh scripts : These scripts contains commands to setup httpd for t
 > - RDS - multi AZ
 
 **DEPLOYMENT:**
-# Intialises provider plugin and modules
-terraform init
-# Validates the configuration files
-terraform validate
-# Shows the execution plan
-terraform plan
-# Creates the infrastructure
-terraform apply
+**Intialises provider plugin and modules**
+> terraform init
+**Validates the configuration files**
+> terraform validate
+**Shows the execution plan**
+> terraform plan
+**Creates the infrastructure**
+> terraform apply
 
 In addition , some reusable modules have been created using terraform to define different resources needed for the infrastructure and called them from the main configuration files. Modules allow us to abstract away complexity and reuse code for creating multiple copies of the same resource as per requirement.
-
-> modules -
->   application_load_balancer
->   autoscaling_group
->   elastic_ip
->   internet_gateway
->   launch_template
->   listener_group
->   nat_gateway
->   rds
->   route_tables
->   rt_association
->   security_group
->   subnet
->   subnet_group
->   target_group
->   vpc
+**modules -**
+> - application_load_balancer
+> - autoscaling_group
+> - elastic_ip
+> - internet_gateway
+> - launch_template
+> - listener_group
+> - nat_gateway
+> - rds
+> - route_tables
+> - rt_association
+> - security_group
+> - subnet
+> - subnet_group
+> - target_group
+> - vpc
