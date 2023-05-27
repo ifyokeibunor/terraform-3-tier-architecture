@@ -52,13 +52,18 @@ web.sh and app.sh scripts : These scripts contains commands to setup httpd for t
 > - Subnet group
 > - RDS - multi AZ
 
+
 **DEPLOYMENT:**
+
 **Intialises provider plugin and modules**
 > terraform init
+
 **Validates the configuration files**
 > terraform validate
+
 **Shows the execution plan**
 > terraform plan
+
 **Creates the infrastructure**
 > terraform apply
 
