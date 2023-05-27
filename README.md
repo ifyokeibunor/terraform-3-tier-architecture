@@ -23,16 +23,16 @@ web.sh and app.sh scripts : These scripts contains commands to setup httpd for t
 **webTier.tf:** This file contains the configuration code for setting up the Web Tier .
 
 **RESOURCES CREATED IN WEBTIER **-
-> Two public subnets
-> Public Route table association with subnets
-> Two security groups
->     - Security group for load balancer
->     - Security group for Web servers
-> Application load balancer-internet facing
-> Listener group
-> Target group
-> Two auto-scaling groups 
-> Launch template
+> - Two public subnets
+> - Public Route table association with subnets
+> - Two security groups
+>     * - Security group for load balancer
+>     * - Security group for Web servers
+> - Application load balancer-internet facing
+> - Listener group
+> - Target group
+> - Two auto-scaling groups 
+> -Launch template
 
 **RESOURCES CREATED IN APP TIER **-
 > Two private subnets
