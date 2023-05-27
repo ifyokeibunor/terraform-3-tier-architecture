@@ -35,22 +35,22 @@ web.sh and app.sh scripts : These scripts contains commands to setup httpd for t
 > -Launch template
 
 **RESOURCES CREATED IN APP TIER **-
-> Two private subnets
-> Private Route table association with subnets
-> Two security groups
->   - Security group for load balancer
->   - Sec> urity group for APP servers
-> Application load balancer - internal
-> Listener group
-> Target group
-> Two auto-scaling groups
-> Launch template
+> - Two private subnets
+> - Private Route table association with subnets
+> - Two security groups
+>  * - Security group for load balancer
+>  * - Sec> urity group for APP servers
+> - Application load balancer - internal
+> - Listener group
+> - Target group
+> - Two auto-scaling groups
+> - Launch template
 
 **RESOURCES CREATED IN DATA TIER **-
-> Two private subnets
-> Security group for rds
-> Subnet group
-> RDS - multi AZ
+> - Two private subnets
+> - Security group for rds
+> - Subnet group
+> - RDS - multi AZ
 
 **DEPLOYMENT:**
 # Intialises provider plugin and modules
